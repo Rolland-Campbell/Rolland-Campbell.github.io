@@ -21,7 +21,7 @@ footer {
 
 .appImg{
   height: 20vh;
-  width: 15vw;
+  width: 15=0vw;
   border-radius: 20px;
   border: 3px;
   border-color: white;
@@ -31,8 +31,8 @@ footer {
 
 .photoMe {
   transform: rotate(90deg);
-  height:18vh;
-  width: 12vw;
+  height:17vh;
+  width: 14vw;
   border-radius: 50%;
   border: 2px;
   border-color: black;
@@ -51,15 +51,26 @@ footer {
   border-bottom-left-radius: 20px;
   color: white;
   justify-content: space-evenly;
-}
-
-.appCol {
-  display: flex;
-  justify-content: space-evenly;
+  margin-bottom: 10vh;
 }
 
 .appCard{
   justify-self: center;
   padding-left: 1vw;
   padding-right: 1vw;
+}
+
+.skillTitle{
+  color: white;
+  font-size: 5vh;
+ justify-content: center;
+ margin-bottom: 3vh;
+}
+
+.skillsRow {
+ color: white;
+ text-shadow: 1px 1px black;
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 10vh;
 }
